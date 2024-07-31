@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Submitted Info</title>
+    <link rel="stylesheet" href="~/css2/styles.css">
+</head>
+
+<body>
+    <div class="info-box">
+    <h1>Submitted Info</h1>
+    <p>Name: @ViewBag.Name</p>
+    <p>Dojo Location: @ViewBag.Location</p>
+    <p>Favorite Language: @ViewBag.Language</p>
+    <p>Comment: @ViewBag.Comment</p>
+    <form action="/Home/Index" method="get">
+    <button type="submit">Go Back</button>
+    </div>
+    </form>
+</body>
+
+</html>
